@@ -1,0 +1,261 @@
+/* ----------------------------------------------------------
+ Author: legcy
+ Author Github URL: https://github.com/legcy143/
+ Created on : 11 Nov 2023
+---------------------------------------------------------- */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+
+/* body {
+font-family: "Poppins", sans-serif;
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+height: 100dvh;
+overflow-x: hidden;
+} */
+
+.main-blog-container {
+    margin: auto;
+    width: min(90vw, 85rem);
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.main-blog-container h1,
+.main-blog-container h2,
+.main-blog-container h3,
+.main-blog-container h4,
+.main-blog-container h5,
+.main-blog-container h6 {
+    color: #1d1e1e;
+}
+
+.main-blog-container h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    font-size: clamp(2rem, calc(0.5rem + 1vw), 2.5rem);
+
+}
+
+.main-blog-container h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-size: clamp(1.4rem, calc(0.5rem + 1vw), 1.5rem);
+    line-height: 1.2;
+}
+
+
+.main-blog-container p {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    color: #747794;
+}
+
+.main-blog-container li {
+    margin: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #383737;
+}
+
+.main-blog-container ul {
+    list-style: none;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #383737;
+}
+
+.main-blog-container img {
+    margin: 0.5rem auto;
+    display: block;
+    width: max(90%, 10rem);
+    max-height: 25rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+.main-blog-container p a {
+    color: #e30083;
+    font-weight: 600;
+}
+.center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-header {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-header h1 {
+    margin: 1rem 0rem;
+    margin-top: 3rem;
+}
+
+@media (min-width: 750px) {
+    .blog-header {
+        margin: 0rem auto;
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .blog-header h1 {
+        margin: 0;
+    }
+}
+
+.blog-outline a {
+    margin: 1rem 0rem 0rem 2rem;
+    font-size: 1rem;
+    color: #e30083;
+    display: block;
+    text-decoration: none;
+}
+
+
+.blog-outline hr {
+    margin: 1rem 0rem;
+    opacity: 0.5;
+}
+
+
+/* case study styles */
+.main-casestudy-container {
+    margin: auto;
+    width: min(90vw, 85rem);
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.main-casestudy-container h1,
+.main-casestudy-container h2,
+.main-casestudy-container h3,
+.main-casestudy-container h4,
+.main-casestudy-container h5,
+.main-casestudy-container h6 {
+    color: #1d1e1e;
+}
+
+.main-casestudy-container h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+    font-size: clamp(2rem, calc(0.5rem + 1vw), 2.5rem);
+    line-height: 1.2;
+}
+
+.main-casestudy-container h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-size: clamp(1.4rem, calc(0.5rem + 1vw), 2rem);
+    line-height: 1.2;
+}
+
+
+.main-casestudy-container p {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    color: #747794;
+}
+
+.main-casestudy-container p a {
+    color: #e30083;
+    font-weight: 600;
+}
+
+.main-casestudy-container li {
+    margin: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #383737;
+}
+
+.main-casestudy-container ul {
+    list-style: none;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #383737;
+}
+
+.main-casestudy-container img {
+    margin: 0.5rem auto;
+    display: block;
+    width: max(90%, 10rem);
+    max-height: 25rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+
+.casestudy-header {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem 0rem;
+}
+
+.casestudy-header h1 {
+    margin: 1rem 0rem;
+    margin-top: 3rem;
+}
+
+@media (min-width: 750px) {
+    .casestudy-header {
+        margin: 0rem auto;
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 10rem 0rem 0rem;
+    }
+
+    .casestudy-header h1 {
+        margin: 0;
+        margin: 1rem 0rem 0rem;
+    }
+}
+
+.casestudy-outline a {
+    margin: 1rem 0rem 0rem 2rem;
+    font-size: 1rem;
+    color: #e30083;
+    display: block;
+    text-decoration: none;
+}
+
+.casestudy-outline hr {
+    margin: 1rem 0rem;
+    opacity: 0.5;
+}
